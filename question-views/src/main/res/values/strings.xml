@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_description_translate">Translate</string>
+    <string name="require_all_selected_message">Please select an answer!</string>
+    <string name="action_finish_test">Finish test</string>
+    <string name="action_show_results">Show answers</string>
+</resources>

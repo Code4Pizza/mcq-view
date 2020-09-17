@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuestionView">
+        <attr name="qvShowNumberInTotal" format="boolean" />
+        <attr name="qvMultipleChoice" format="boolean" />
+        <attr name="qvQuestion" format="string" />
+        <attr name="qvQuestionTextColor" format="color" />
+        <attr name="qvQuestionTextSize" format="dimension" />
+        <attr name="qvQuestionTranslatable" format="boolean" />
+        <attr name="qvQuestionTranslatableIcon" format="reference"/>
+        <attr name="qvOptionNumberingStyle" format="enum">
+            <enum name="none" value="0" />
+            <enum name="bullets" value="1" />
+            <enum name="digit_number" value="2" />
+            <enum name="roman_number" value="3" />
+            <enum name="character" value="4" />
+        </attr>
+        <attr name="qvOptionNumberingSeparateCharacter" format="enum" >
+            <enum name="none" value="0" />
+            <enum name="dot" value="1" />
+            <enum name="parenthesis" value="2" />
+        </attr>
+        <attr name="qvOptionTextColor" format="color" />
+        <attr name="qvOptionTextSize" format="dimension" />
+        <attr name="qvOptionTranslatable" format="boolean" />
+        <attr name="qvWrongAnswerBackgroundColor" format="color" />
+        <attr name="qvRightAnswerBackgroundColor" format="color" />
+        <attr name="qvCheckedStateColor" format="color" />
+        <attr name="qvRequireAllSelectedBeforeSubmit" format="boolean"/>
+        <attr name="qvRequireAllSelectedMessage" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="OptionView">
+        <attr name="ovOption" format="string" />
+        <attr name="ovOptionTextColor" format="color" />
+        <attr name="ovOptionTextSize" format="dimension" />
+        <attr name="ovOptionTranslatable" format="boolean" />
+    </declare-styleable>
+</resources>
